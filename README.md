@@ -14,8 +14,11 @@ The analysis is performed using Python and several data analysis libraries, incl
   • Basic information about the dataset is displayed using df.head(), df.tail(), df.shape, df.columns, df.duplicated().sum(), df.isnull().sum(), df.info(), df.describe(), and df.nunique().
   
   • Categorical columns are identified using object_columns = df.select_dtypes(include='object').columns.
+  
   • Numerical columns are identified using numerical_columns = df.select_dtypes(include=['int64', 'float64']).columns.
+  
   • The unique values and value counts for the "Type_of_order" and "Type_of_vehicle" columns are displayed.
+  
   • Count plots, pie charts, bar plots, box plots, violin plots, histograms, and density plots are created to visualize the distributions and relationships between variables.
 # Feature Engineering
   • Time components (hour of day, day of week, month of year) are extracted from the "Time_taken(min)" column.
