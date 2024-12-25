@@ -4,13 +4,13 @@ This project aims to predict the delivery time for food orders based on various 
 # Getting Started
 To get started with this project, you can follow these steps:
 
-Clone the repository: git clone <repository_url>
+1.Clone the repository: git clone <repository_url>
 Install the required dependencies: pip install numpy pandas matplotlib seaborn plotly scikit-learn 
 Run the code in a Python environment: python food_delivery_analysis.py
-Description
+# Description
 The analysis is performed using Python and several data analysis libraries, including NumPy, Pandas, Matplotlib, Seaborn, and Plotly. The dataset is loaded into a Pandas DataFrame and explored to gain insights.
 
-Data Exploration
+# Data Exploration
 Basic information about the dataset is displayed using df.head(), df.tail(), df.shape, df.columns, df.duplicated().sum(), df.isnull().sum(), df.info(), df.describe(), and df.nunique().
 Categorical columns are identified using object_columns = df.select_dtypes(include='object').columns.
 Numerical columns are identified using numerical_columns = df.select_dtypes(include=['int64', 'float64']).columns.
